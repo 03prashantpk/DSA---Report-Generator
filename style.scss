@@ -1,0 +1,182 @@
+@page {
+    size: auto;
+    margin: 0;
+}
+
+body {
+    color: #000;
+    display: block;
+    justify-content: center;
+    padding: 2% 10%;
+    border: #ccc 1px solid;
+}
+
+// #page1,
+// #page2 {
+//     // border-bottom: #ccc 1px solid;
+// }
+#h4 {
+    font-size: 32px;
+}
+
+#studentName {
+    padding-top: 60px;
+    padding-left: 6%;
+    text-align: left;
+    line-height: 30px;
+}
+
+#page1 {
+    text-align: center;
+    line-height: 20px;
+    min-height: 1122.520px;
+    min-width: 793.701;
+    img {
+        width: 300px;
+        padding: 30px;
+    }
+}
+
+#page2 {
+    text-align: center;
+    line-height: 20px;
+    min-height: 1122.520px;
+    min-width: 793.701;
+    p {
+        padding: 0% 10%;
+        text-align: center;
+        line-height: 22px;
+    }
+}
+
+#page3 {
+    text-align: center;
+    line-height: 20px;
+    min-height: 1122.520px;
+    min-width: 793.701;
+    h3 {
+        font-weight: 600;
+    }
+    p {
+        line-height: 22px;
+        padding: 0% 10%;
+    }
+    #reportdate {
+        font-weight: 600;
+        text-align: left;
+        padding-left: 6%;
+    }
+}
+
+#page4 {
+    text-align: center;
+    line-height: 20px;
+    min-height: 1122.520px;
+    min-width: 793.701;
+    img {
+        width: 80%;
+        padding: 6px;
+        border: #ccc 1px solid;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+}
+
+#page5 {
+    text-align: center;
+    line-height: 20px;
+    min-height: 1122.520px;
+    min-width: 793.701;
+    table {
+        width: 100%;
+    }
+    .one,
+    .three {
+        width: 15%;
+        text-align: center;
+        font-size: 19px;
+        border-bottom: 1px #ccc solid;
+        padding: 8px;
+    }
+    .two {
+        width: 70%;
+        text-align: center;
+        font-size: 19px;
+        border-bottom: 1px #ccc solid;
+        padding: 8px;
+    }
+}
+
+#page6 {
+    text-align: justify;
+    line-height: 25px;
+    min-height: 1122.520px;
+    min-width: 793.701;
+}
+
+h4 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+#page7,
+#page8,
+#page9,
+#page10,
+#page11,
+#Content1 {
+    p {
+        line-height: 30px;
+    }
+    min-height: 1122.520px;
+    min-width: 793.701;
+    padding-top: 10px;
+    li {
+        line-height: 20px;
+    }
+}
+
+blockquote {
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#Content1 {
+    padding-top: 0px;
+    li {
+        font-size: 22px;
+    }
+    .innerList {
+        list-style-type: square;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+#button {
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+button {
+    padding: 8px 28px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}

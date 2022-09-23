@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA - REPORT GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- JS FUNCTION REMAINING -->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="button"><button onclick="printAll()">Print</button></div>
+
+    <section id="page1">
+        <h4> Annexure-I </h4>
+        <h1> <strong>DSA Self-Paced</strong> </h1>
+        <h3>GeeksForGeeks</h3>
+        <h4>A Training Report</h4>
+
+        <br>
+
+        <p>Submitted in partial fulfillment of the requirements for the award of degree of Bachelor of Technology</p>
+
+        <h4>(Computer Science and Engineering)</h4>
+        <h4>Submitted to</h4>
+        <h3><strong>LOVELY PROFESSIONAL UNIVERSITY <br> PHAGWARA, PUNJAB</strong></h3>
+
+        <br>
+
+        <img src="lpu-logo-lovely_professional_university.png" alt="">
+
+        <p id="reportdate">From <input style="width:130px;" type="date" name="" onchange="changeFromDate()" id="fromDate"> to <input style="width:130px;" type="date" name="" onchange="changeToDate()" id="toDate"> <br> <br> SUBMITTED BY</p>
+
+        <h3 id="studentName">Student Name: <input type="text" onchange="changeName()" id="studentNameP" placeholder="Enter Your Name"> <br> Registration Number: <input type="text" onchange="changeReg()" id="studentregP" placeholder="Enter Your Reg No"> </h3>
+    </section>
+
+    <section id="page2">
+        <h4>Annexure-II: Student Declaration</h4>
+        <h3><strong>To whom so ever it may concern</strong></h3>
+        <p>I, Sachin Kumar Paswan, 12000724, hereby declare that the work done by me on “DSA” from June 2021 to July 2021, is a record of original work for the partial fulfillment of the requirements for the award of the degree, <strong>Bachelor of Technology.</strong></p>
+        <h3 id="studentName">Student Name: <input type="text" id="studentNameQ" placeholder="Enter Your Name"> <br> Registration Number: <input type="text" onchange="changeReg()" id="studentregQ" placeholder="Enter Your Reg No"> </h3>
+        <p id="reportdate">From <input style="width:130px;" type="date" name="" onchange="changeFromDate()" id="fromDateP"> to<input style="width:130px;" type="date" name="" id="toDateP"> <br> <br> SUBMITTED BY</p>
+    </section>
+
+
+    <section id="page3">
+        <h4>ACKNOWLEDGEMENT</h4>
+        <p>Primarily I would like to thank God for being able to learn a new technology. Then I would like to express my special thanks of gratitude to the teacher and instructor of the course DSA Self-Paced from GeeksForGeeks who provide me the golden opportunity
+            to learn a new technology from home.</p>
+        <p>I would like to also thank my own college Lovely Professional University for offering such a course which not only improve my programming skill but also taught me other new technology.</p>
+        <p>Then I would like to thank my parents and friends who have helped me with their valuable suggestions and guidance for choosing this course.</p>
+        <p>Last but not least I would like to thank my all classmates who have helped me a lot.</p>
+
+        <h3 id="studentName">Student Name: <input type="text" id="studentNameR" placeholder="Enter Your Name"> <br> Registration Number: <input type="text" onchange="changeReg()" id="studentregR" placeholder="Enter Your Reg No"> </h3>
+        <p id="reportdate">From <input style="width:130px;" type="date" name="" id="fromDateQ"> to <input style="width:130px;" type="date" name="" id="toDateQ"> <br> <br> SUBMITTED BY</p>
+    </section>
+
+    <section id="page4">
+        <h4>Certificate</h4>
+        <img src="certificateDSA.JPG" id="certiImage" alt="">
+        <input type="text" name="" placeholder="Enter Certificate Image URL" onchange="cetiImage()" id="certiImageImput">
+    </section>
+
+    <section id="page5">
+        <h4>TABLE OF CONTENT</h4>
+        <table>
+            <tr>
+                <td class="one" style="font-weight: 600; font-size: 22px;">S/NO</td>
+                <td class="two" style="font-weight: 600; font-size: 22px;">Title</td>
+                <td class="three" style="font-weight: 600; font-size: 22px;">Page</td>
+            </tr>
+
+            <tr>
+                <td class="one">1</td>
+                <td class="two">Content</td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">2</td>
+                <td class="two">Declaration of the student</td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">3</td>
+                <td class="two">Acknowledgement</td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">4</td>
+                <td class="two">Training Certification from organization</td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">5</td>
+                <td class="two">Table of Contents</td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">6</td>
+                <td class="two">List of abbreviation</td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">7</td>
+                <td class="two">Introduction </td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">8</td>
+                <td class="two">Technology learnt </td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">9</td>
+                <td class="two">Reason for choosing DSA</td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">10</td>
+                <td class="two">Learning Outcome</td>
+                <td class="three">1</td>
+            </tr>
+
+            <tr>
+                <td class="one">11</td>
+                <td class="two">Bibliography</td>
+                <td class="three">1</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="page6">
+        <h4>INTRODUCTION</h4>
+        <br>
+        <li>
+            <p>
+                The course name DSA stands for “Data Structures and Algorithms” and Selfpaced means, one can join the course anytime. All of the content will be available once one gets enrolled. One can finish it at his own decided speed.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What is Data Structure? Data Structure is a way of collecting and organizing data in such a way that we can perform operations on these data in an effective way. Data Structures is about rendering data elements in terms of some relationship, for better
+                organization and storage. For example, we have some data which has, player's name "Virat" and age 26. Here "Virat" is of String data type and 26 is of integer data type.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                What is Algorithm? An algorithm is a finite set of instructions or logic, written in order, to accomplish a certain predefined task. Algorithm is not the complete code or program, it is just the core logic(solution) of a problem, which can be expressed
+                either as an informal high-level description as pseudocode or using a flowchart.
+            </p>
+        </li>
+
+        <li>
+            <p>
+                This course is a complete package that helped me learn Data Structures and Algorithms from basic to an advanced level. The course curriculum has been divided into 8 weeks where one can practice questions & attempt the assessment tests according to his
+                own pace. The course offers me a wealth of programming challenges that will help me to prepare for interviews with top-notch companies like Microsoft, Amazon, Adobe etc.
+            </p>
+        </li>
+    </section>
+
+
+    <section id="Content1">
+        <h4>TECHNOLOGY LEARNT</h4>
+        <br>
+        <li>Learn Data Structures and Algorithms from basic to an advanced level like:</li>
+        <br>
+        <li>Learn Topic-wise implementation of different Data Structures & Algorithms as follows:
+            <br>
+            <br>
+            <li>
+                <strong>Analysis of Algorithm</strong>
+            </li>
+            <li class="innerList">
+                Analysis of Algorithm o In this I learned about background analysis through a Program and its functions.
+            </li>
+        </li>
+        <br>
+
+        <li><strong>Order of Growth</strong>
+            <li class="innerList">
+                A mathematical explanation of the growth analysis through limits and functions.
+            </li>
+            <li class="innerList">
+                A direct way of calculating the order of growth.
+            </li>
+        </li><br>
+
+        <li>
+            <strong>Asymptotic Notations</strong>
+            <li class="innerList">Best, Average and Worst-case explanation through a program.</li>
+        </li>
+        <br>
+
+        <li><strong>Big O Notation</strong>
+            <li class="innerList">Graphical and mathematical explanation.</li>
+            <li class="innerList">Calculation</li>
+            <li class="innerList">Applications at Linear Search</li>
+        </li>
+        <br>
+
+        <li><strong>Omega Notation</strong>
+            <li class="innerList">Graphical and mathematical explanation.</li>
+            <li class="innerList">Calculation.</li>
+        </li>
+
+
+
+    </section>
+
+    <section id="page7">
+        <h4>LEARNING OUTCOMES</h4>
+        <br>
+        <p>
+            Programming is all about data structures and algorithms. Data structures are used to hold data while algorithms are used to solve the problem using that data.
+
+            <br> <br> Data structures and algorithms (DSA) goes through solutions to standard problems in detail and gives you an insight into how efficient it is to use each one of them. It also teaches you the science of evaluating the efficiency of
+            an algorithm. This enables you to choose the best of various choices.
+
+            <br><br> For example, you want to search your roll number in 30000 pages of documents, for that you have choices like Linear search, Binary search, etc. So, the more efficient way will be Binary search for searching something in a huge number
+            of data.
+            <br><br>
+            <p>
+                So, if you know the DSA, you can solve any problem efficiently. The main use of DSA is to make your code scalable because.
+            </p>
+
+            <p>
+                The main use of DSA is to make your code scalable because.
+                <li>
+                    Time is precious.
+                </li>
+                <li>
+                    Memory is expensive.
+                </li>
+            </p>
+        </p>
+    </section>
+
+
+    <section id="page8">
+        <h3>One of the uses DSA is to crack the interviews to get into the product- based companies.</h3>
+        <br>
+        <br> In our daily life, we always go with that person who can complete the task in a short amount of time with efficiency and using fewer resources. The same things happen with these companies. The problem faced by these companies is much harder
+        and at a much larger scale. Software developers also have to make the right decisions when it comes to solving the problems of these companies. <br> <br> For example, in an interview, your given a problem to find the sum of first N natural numbers.
+        <br> <br> One candidate solves it by using loop like.
+
+        <br><br>
+
+        <strong>
+            <p>Initialize sum = 0 <br>
+                for every natural number n in range 1 to N (inclusive): <br>
+                add n to sum.</p>
+        </strong>
+
+    </section>
+
+    <section id="page9">
+        <strong>sum is the answer.</strong>
+        <br><br> And you solve it using the sum of first N natural numbers is given by the formula: Sum=N*(N+1)/2. <br><br> Obviously, they will choose you over other one because your solution is more efficient. Knowledge of data structures like Hash
+        Tables, Trees, Tries, Graphs, and various algorithms goes a long way in solving these problems efficiently and the interviewers are more interested in seeing how candidates use these tools to solve a problem. Just like a car mechanic needs the
+        right tool to fix a car and make it run properly, a programmer needs the right tool (algorithm and data structure) to make the software run properly. So, the interviewer wants to find a candidate who can apply the right set of tools to solve the
+        given problem. If you know the characteristics of one data structure in contrast to another you will be able to make the right decision in choosing the right data structure to solve a problem. <br> Another use of DSA, if you love to solve the
+        real-world complex problems. <br><br> Let’s take the example of Library. If you need to find a book on Set Theory from a library, you will go to the math section first, then the Set Theory section. If these books are not organized in this manner
+        and just distributed randomly then it will be frustrating to find a specific book. So, data structures refer to the way we organize information on our computer. Computer scientists process and look for the best way we can organize the data we
+        have, so it can be better processed based on input provided. <br><br> A lot of newbie programmers have this question that where we use all the stuff of data structure and algorithm in our daily life and how it’s useful in solving the real-world
+        complex problem. We need to mention that whether you are interested in getting into the top tech giant companies or not DSA still helps a lot in your day-to-day life. Let’s consider some examples.
+        <br><br>
+        <li>In Facebook you can represent your friends on Facebook, friends of friends, mutual friends easily by Graph.</li>
+    </section>
+
+
+    <section id="page10">
+        <li>
+            If you need to keep a deck of cards and arrange it properly, how would you do that? You will throw it randomly or you will arrange the cards one over another and from a proper deck. You can use Stack here to make a proper arrangement of cards one over
+            another.
+        </li>
+
+        <li>
+            If you need to search a word in the dictionary, what would be your approach? Do you go page by page or you open some page and if the word is not found you open a page prior/later to one opened depending upon the order of word to the current page (Binary
+            Search)
+        </li>
+
+        <li>
+            The first two were a good example of choosing the right data structure for a real-world problem and the third one is a good example of choosing the right algorithm to solve a specific problem in less amount of time.
+        </li>
+        <br><br>
+        <blockquote>
+            Data structure and algorithms help in understanding the nature of the problem at a deeper level and thereby a better understanding of the world.”
+        </blockquote>
+    </section>
+
+    <section id="page11">
+        <h4>BIBLIOGRAPHY</h4>
+        <br>
+        <li> Google </li>
+        <li>GeeksForGeeks website</li>
+        <li>GeeksForGeeks DSA self-paced Course</li>
+    </section>
+
+</body>
+<script>
+    function changeName() {
+        var name = document.getElementById("studentNameP").value;
+        document.getElementById("studentNameQ").value = name;
+        document.getElementById("studentNameR").value = name;
+    }
+
+    function changeReg() {
+        var name = document.getElementById("studentregP").value;
+        document.getElementById("studentregQ").value = name;
+        document.getElementById("studentregR").value = name;
+    }
+
+    function changeFromDate() {
+        var date = document.getElementById("fromDate").value;
+        document.getElementById("fromDateP").value = date;
+        document.getElementById("fromDateQ").value = date;
+    }
+
+    function changeToDate() {
+        var date2 = document.getElementById("toDate").value;
+        document.getElementById("toDateP").value = date2;
+        document.getElementById("toDateQ").value = date2;
+    }
+
+    function cetiImage() {
+        var image = document.getElementById("certiImageImput").value;
+        document.getElementById("certiImage").src = image;
+    }
+
+    function printAll() {
+        document.getElementById("button").style.visibility = "hidden";
+        window.print();
+
+    }
+</script>
+
+</html>
